@@ -12,6 +12,9 @@ import (
 )
 
 func main() {
+	println("AoC 2022 Day 2")
+	println("https://adventofcode.com/2022/day/2")
+
 	data, err := os.ReadFile("in.txt")
 
 	if err != nil {
